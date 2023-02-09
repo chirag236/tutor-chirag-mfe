@@ -22,18 +22,18 @@ def load_about():
 ABOUT = load_about()
 
 setup(
-    name="tutor-mfe",
+    name="tutor-chirag-mfe",
     version=ABOUT["__version__"],
-    url="https://github.com/overhangio/tutor-mfe",
+    url="https://github.com/chirag236/tutor-chirag-mfe",
     project_urls={
-        "Code": "https://github.com/overhangio/tutor-mfe",
+        "Code": "https://github.com/chirag236/tutor-chirag-mfe",
         "Issue tracker": "https://github.com/overhangio/tutor-mfe/issues",
         "Community": "https://discuss.openedx.org/tag/tutor",
     },
     license="AGPLv3",
     author="Overhang.IO",
     maintainer="tCRIL",
-    maintainer_email="adolfo@tcril.org",
+    maintainer_email="chirag.suthar@drcsystems.com",
     description="mfe plugin for Tutor",
     long_description=load_readme(),
     long_description_content_type="text/x-rst",
