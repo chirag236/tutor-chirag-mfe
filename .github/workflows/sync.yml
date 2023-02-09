@@ -13,5 +13,3 @@ jobs:
           fetch-depth: 0
       - name: Add remote
         run: git remote add chirag236 https://${{ secrets.GIT_USERNAME }}:${{ secrets.GIT_PASSWORD }}@git.chirag236.io/core/tutor-chirag-mfe.git
-      - name: Push
-        run: git push chirag236 $GITHUB_REF
