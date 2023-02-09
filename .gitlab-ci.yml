@@ -1,9 +1,9 @@
 variables:
     TUTOR_PLUGIN: mfe
     TUTOR_IMAGES: mfe account-dev course-authoring-dev discussions-dev authn-dev gradebook-dev learning-dev profile-dev
-    TUTOR_PYPI_PACKAGE: tutor-mfe
+    TUTOR_PYPI_PACKAGE: tutor-chirag-mfe
     OPENEDX_RELEASE: olive
-    GITHUB_REPO: overhangio/tutor-mfe
+    GITHUB_REPO: chirag236/tutor-chirag-mfe
 
 include:
   - project: 'community/tutor-ci'
